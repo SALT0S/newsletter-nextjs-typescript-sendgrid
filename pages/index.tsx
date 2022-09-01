@@ -6,7 +6,7 @@ import { Newsletter } from "../components/ui";
 const HomePage: NextPage = () => {
   return (
     <GeneralLayout>
-      <NextSeo title="Portfolio" />
+      <NextSeo title="Newsletter Form" />
 
       <div className="">
         <div>

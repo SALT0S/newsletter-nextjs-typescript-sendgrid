@@ -6,30 +6,30 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        titleTemplate="%s | Template"
-        defaultTitle="Template | NextJS Typescript Tailwind CSS Starter"
-        description="NextJS Typescript Tailwind CSS Starter"
+        titleTemplate="%s | Nextjs"
+        defaultTitle="Newsletter Form | Nextjs"
+        description="Newsletter Form"
         openGraph={{
           type: "website",
           locale: "en_US",
           url: "",
-          title: "Template | NextJS Typescript Tailwind CSS Starter",
-          description: "NextJS Typescript Tailwind CSS Starter",
+          title: "Newsletter Form | Nextjs",
+          description: "Newsletter Form",
           images: [
             {
               url: "",
               width: 1200,
               height: 630,
-              alt: "Nextjs Typescript Tailwind CSS Starter",
+              alt: "Newsletter Form",
             },
           ],
-          site_name: "Template",
+          site_name: "Newsletter",
         }}
         additionalMetaTags={[
           {
             name: "keywords",
             content:
-              "Jose, Sanchez, Saltos, Template, Nextjs, Typescript, Tailwind, CSS, Starter",
+              "Jose, Sanchez, Saltos, Form, Nextjs, Typescript, Tailwind, CSS, Newsletter",
           },
         ]}
         twitter={{
