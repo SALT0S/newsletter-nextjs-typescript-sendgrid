@@ -1,4 +1,5 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+// pages/api/mailingList.ts
+
 import type { NextApiRequest, NextApiResponse } from "next";
 
 type Data = {
@@ -9,7 +10,6 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.setHeader("Cache-Control", "s-maxage=10");
   const email = req.body.mail;
   const url = `https://api.sendgrid.com/v3/marketing/contacts`;
 

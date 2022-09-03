@@ -1,3 +1,5 @@
+// components/ui/Newsletter.tsx
+
 import axios from "axios";
 import { useState } from "react";
 import { RiLoader5Fill } from "react-icons/ri";

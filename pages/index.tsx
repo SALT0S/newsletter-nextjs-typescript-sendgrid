@@ -1,3 +1,5 @@
+// pages/index.tsx
+
 import type { NextPage } from "next";
 import { NextSeo } from "next-seo";
 import { GeneralLayout } from "../components/layouts";
